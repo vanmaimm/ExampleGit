@@ -1,0 +1,74 @@
+body{
+    font-family: segoe ui;
+}
+*{
+	margin: 0;
+ 	padding: 0;
+}
+.small{
+	width: 900px;
+	margin: auto;
+	display:block;
+}
+.tieude{
+	height: 50px;
+	width: 100%;
+}
+.tieude a{
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+}
+.tieude span{
+	margin-left:10px;
+	font-size: 20px;
+}
+.mota{
+	display: flex;
+}
+.img1{
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: #e0e0eb;
+}
+.left, .right{
+	width: 448px;
+	display: block;
+	margin-right: 3px;: 
+}
+.right{
+	padding-left: 20px;
+}
+.right p{
+	font-size: 20px;
+}
+.right p.text1, h3{
+	margin-top:10px;
+}
+.text1 span{
+	color:red;
+}
+input.date{
+	margin-top:10px;
+	height: 30px;
+	width: 300px;
+}
+span.thue{
+	color:#696969;
+}
+div.cuoi{
+	margin-top:30px; 
+}
+button{
+	height: 40px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #ff6600; 
+}
+input{
+	margin-left: 10px; 
+}
+.like{
+	font-size:20px;
+}
