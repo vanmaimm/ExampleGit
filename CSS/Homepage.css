@@ -1,0 +1,257 @@
+body{
+    font-family: segoe ui;
+}
+*{
+	margin: 0;
+ 	padding: 0;
+}
+.top{
+	width: 100%;
+	height: 200px;
+}
+.top1{
+	width: 1200px;
+	height: 150px;
+	display: flex;
+	margin: auto;
+	background-color: white;
+}
+.top1 .logo{
+	margin-top:25px;
+}
+.top1 .logo img{
+	width: 300px;
+	height: auto;
+}
+.center{
+	width: 600px;
+	border-width: 3px;
+ 	border-style: solid;
+ 	border-color: #ff6600; 
+ 	height: 30px;
+	margin-top: 65px;
+	margin-left: 100px;
+}
+.cart{
+    margin-top: 65px;
+    float: left;
+    width: 300px;
+
+ }
+ .cart button{
+ 	margin-left: 100px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    color: #ff6600;
+
+ }
+ .center input{
+    border:none;
+    width: 350px;
+    margin:5px;
+}
+.buttom{
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	margin: auto;
+	background-color: #ff6600;
+
+}
+#menu ul {
+  background: none;
+  width: 1011px;
+  height: 100%;
+  margin:auto;
+  list-style-type: none;
+  text-align: left;
+
+}
+div.cate{
+	width: 300px;
+	background-color: white;
+	border-width: 1.5px;
+ 	border-style: solid;
+ 	border-color: #ff6600; 
+ 	text-transform: uppercase;
+ 	padding-top: 10px;
+ 	padding: auto;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 130px;
+  height: 100%;
+  line-height: 40px;
+  margin-left: -5px;
+  text-align-last: center;
+  text-align: center;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  font-style: bold;
+}
+#menu a:hover {
+  background: white;
+}
+
+#menu li {
+ position: relative;
+}
+.tbody{
+	width: 1200px;
+	margin: auto;
+}
+.khoi1, .khoi2{
+	width: 100%;
+	height: 300px;
+	 
+	display: flex;
+
+}
+.khoi1 .left{
+    width: 200px;
+    display: block;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+.khoi1 .left a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: black;
+    font-size:15px;
+    padding: 5.5px;
+    border-bottom-style: ridge;
+    border-bottom-width: 0.5px;
+
+}
+
+.khoi1 .left a:hover{
+    background: #ff6600;
+    margin:auto;
+}
+
+.khoi1 .giua{
+	width: 700px;
+	background-color: white;
+}
+
+.khoi1 .giua img{
+	width: 100%;
+	height: 100%;
+
+}
+.khoi1 .right{
+	width: 300px;
+	display: block;
+}
+.khoi1 .right .sp{
+	height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.khoi1 .right .kinh{
+	height: 30px;
+	text-align: center;
+}
+.khoi1 .right .price{
+	text-align: center;
+	height: 30px;
+}
+.khoi1 .right .img_kinh{
+	height: 200px;
+	width: 300px;
+
+}
+.khoi1 .right .img_kinh img{
+	width: 100%;
+	height:100%;
+}
+.khoi2{
+	height: 250px;
+	margin-top:50px;
+}
+.khoi2 .anh, .khoi2 .anh img{
+	width: 200px;
+	height: 100%;
+}
+.khoi2 .categories{
+	width: 1000px;
+	display: block;
+	height: 100%;
+}
+h2{
+	height: 50px;
+}
+.category{
+	height:200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.category .cate_detail{
+	height: 100%;
+	width: 140px;
+	margin-left: 25px;
+}
+.category .cate_detail .img_cate img{
+	width: 100%;
+	height: 150px;
+}
+.khoi3{
+	width: 1200px;
+	margin: auto;
+	margin-top:50px;
+	display: flex;
+	height: 450px;
+}
+.khoi3 .ban{
+	display: block;
+	width: 300px;
+}
+.khoi3 .ban img, .nam{
+	width: 100%;
+	height: 350px;
+}
+
+.khoi3 .dongho{
+	display: block;
+	width: 1000px;
+}
+h1{
+	height: 50px;
+}
+.khoi3 .dongho .tp{
+	height: 400px;
+	display: flex;
+	border-top-style: solid;
+	border-top-color: #ff6600;
+
+}
+.khoi3 .dongho .tp .nam{
+	width: 250px;
+}
+.khoi3 .dongho .tp .nhom{
+	width: 750px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.khoi3 .dongho .tp .nhom .nhom1{
+	width: 250px;
+	height:200px;
+
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.nhom1 img{
+	width: 150;
+	height: 100px;
+}
